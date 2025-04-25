@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #c2e9fb, #a1c4fd);
+    color: #333;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 40px;
+  }
+  
+  input, textarea, select, button {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+  }
+  
+  button {
+    background-color: #4a90e2;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #357ab8;
+  }
+  
+  .folders {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .folder {
+    flex: 1;
+    background: #f1f1f1;
+    padding: 20px;
+    border-radius: 15px;
+    min-width: 300px;
+  }
+  
+  .folder h2 {
+    margin-bottom: 10px;
+  }
+  
+  .folder ul {
+    list-style: none;
+  }
+  
+  .folder li {
+    background: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-left: 5px solid #4a90e2;
+    border-radius: 5px;
+  }
+  li button {
+    background-color: transparent;
+    border: none;
+    color: red;
+    font-size: 1rem;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  li button:hover {
+    color: darkred;
+  }
+  
+  

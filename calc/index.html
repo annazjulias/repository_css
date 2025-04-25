@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Diário dos Sonhos</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🌙 Diário dos Sonhos</h1>
+
+    <form id="dreamForm">
+      <input type="text" id="dreamTitle" placeholder="Título do sonho" required />
+      <textarea id="dreamText" placeholder="Escreva seu sonho..." required></textarea>
+      <select id="dreamType">
+        <option value="bom">Sonho Bom</option>
+        <option value="ruim">Sonho Ruim</option>
+      </select>
+      <button type="submit">Salvar Sonho</button>
+    </form>
+
+    <div class="folders">
+      <div class="folder" id="bonsSonhos">
+        <h2>✨ Sonhos Bons</h2>
+        <ul></ul>
+      </div>
+      <div class="folder" id="ruinsSonhos">
+        <h2>💤 Sonhos Ruins</h2>
+        <ul></ul>
+      </div>
+    </div>
+  </div>
+
+  
+  <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Diário dos Sonhos</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container" id="loginContainer">
+    <h1>🔐 Entrar no Diário dos Sonhos</h1>
+    <form id="loginForm">
+      <input type="text" id="username" placeholder="Nome de usuário" required />
+      <input type="password" id="password" placeholder="Senha" required />
+      <button type="submit">Entrar</button>
+    </form>
+  </div>
+
+  <div class="container" id="diarioContainer" style="display: none;">
+    <h1>🌙 Diário dos Sonhos</h1>
+    <form id="dreamForm">
+      <input type="text" id="dreamTitle" placeholder="Título do sonho" required />
+      <textarea id="dreamText" placeholder="Escreva seu sonho..." required></textarea>
+      <select id="dreamType">
+        <option value="bom">Sonho Bom</option>
+        <option value="ruim">Sonho Ruim</option>
+      </select>
+      <button type="submit">Salvar Sonho</button>
+    </form>
+
+    <div class="folders">
+      <div class="folder" id="bonsSonhos">
+        <h2>✨ Sonhos Bons</h2>
+        <ul></ul>
+      </div>
+      <div class="folder" id="ruinsSonhos">
+        <h2>💤 Sonhos Ruins</h2>
+        <ul></ul>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
