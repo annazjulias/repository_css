@@ -8,16 +8,15 @@
 }
 
 img {
-    margin: 55px 0 0 121px;
+    margin: 89px 0 0 123px;
     display: inline-block
-
 }
 
 
 div {
-    margin-left: 85px;
+    margin-left: 84px;
     width: 493px;
-    display: inline-block
+    display: inline-block;
 
 }
 
@@ -66,7 +65,6 @@ p {
     color: #4b505a;
     margin-top: 47px;
     margin-bottom: 55px;
-    width: 493px;
 }
 
 
@@ -87,6 +85,7 @@ header {
 .button-heder:hover {
     opacity: .8;
 }
+
 .button-heder:active {
     opacity: .6;
 }
@@ -95,36 +94,42 @@ header {
     .link-header-ca {
         display: none;
     }
-        .button-heder{
-            margin-left: 300px;
-            margin-right: 10px;
-        }
-        main {
-            display: flex;
-            flex-direction: column-reverse; 
-            align-items: center;
-            text-align: center;
-            margin: 0 20px;
-            }
-        }
-        h1 {
-           
-            font-size: 45px;
-            line-height: 36px;
-            max-width: 100%;
-           margin: 0 50px 0 50px;
-            margin-top: 100px;
-     }
-     img {
-        Width: 500px;
-        Height: 400px;
-        box-align: center;
-        margin-top: 5px;
-     }
+
+    .button-heder {
+        margin-left: 300px;
+        margin-right: 10px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+        margin: 0 20px;
+    }
+
+h1 {
+
+    font-size: 45px;
+    line-height: 36px;
+    max-width: 100%;
+    margin: 0 50px 0 50px;
+    margin-top: 100px;
+}
+
+img {
+    Width: 500px;
+    Height: 400px;
+    box-align: center;
+    margin-top: 5px;
+}
+
 p {
     font-size: 22px;
     line-height: 35px;
     max-width: 90%;
     margin: 50px auto;
     text-align: center;
+}
+
 }
